@@ -7,8 +7,9 @@ const App = () =>{
 
   return <>
     <Header />
-    {/* <Main/> */}
-    <ReactHook/>
+    <Main/>
+    {/* <ReactHook/> */}
+    
     <Footer />
   </>
 
