@@ -12,6 +12,8 @@ import FocusInput from './hooks/FocusInput'
 import Timer from './hooks/Timer'
 import FetchData from '../customHook/FetchData'
 import UniqId from './hooks/UniqId'
+import Test from './components/Test'
+import Load from './components/moc/Load'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,7 +34,9 @@ function App() {
       <Timer/> */}
       {/* <FetchData/> */} 
         
-      <UniqId/>
+      {/* <UniqId/> */}
+      <Test/>
+      <Load/>
       </main> 
     </>
   )
