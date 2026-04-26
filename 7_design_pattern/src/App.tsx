@@ -1,13 +1,14 @@
+// import Home from "./splitScreen/Home";
 
+import SplitScreen from "./splitScreenChalange/SplitScreen";
 
 const App = () => {
   return (
     <>
-    <section className="bg-red-">
-      <h1>hello world</h1>
-    </section>
+      {/* <Home /> */}
+      <SplitScreen/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
