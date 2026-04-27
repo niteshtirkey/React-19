@@ -1,12 +1,15 @@
 // import Home from "./splitScreen/Home";
 
-import SplitScreen from "./splitScreenChalange/SplitScreen";
+import LiveData from "./listDataLive/LiveData";
+
+// import SplitScreen from "./splitScreenChalange/SplitScreen";
 
 const App = () => {
   return (
     <>
       {/* <Home /> */}
-      <SplitScreen/>
+      {/* <SplitScreen/> */}
+      <LiveData />
     </>
   );
 };
